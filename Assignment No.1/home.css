@@ -1,0 +1,15 @@
+h1{
+    font-family:cursive;
+    background-color: yellow;
+    color:black
+}
+*{
+    background-image: url('/images/download.jpg');
+    background-repeat: no-repeat;
+    background-color: orangered;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#top{
+    color:
+}
