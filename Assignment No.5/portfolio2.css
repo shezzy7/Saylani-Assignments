@@ -1,0 +1,623 @@
+/* Header */
+header img{
+    width: 50px;
+    padding: 5px 0px 0px 25px;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #2c3230;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logoContainer{
+    width: 50px;
+    height: 50px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 5px;
+}
+#logoContainer h3{
+    color: aqua;
+    font-size: 30px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 60px;
+    margin-right:20px ;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+ol.navbar{
+    color: aqua;
+}
+.navbar li a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar button{
+    border: 1px solid aqua;
+    padding: 8px 15px 8px 15px;
+    color: aqua;
+    border-radius: 5px;
+    background-color: #2c3230;
+    transition: 0.5s;
+    position: relative;
+    bottom: 5px;
+}
+.navbar li a:hover{
+    color: aqua;
+
+}
+.navbar button:hover{
+    background-color: grey;
+    
+    transform: translateX(5px);
+}
+
+
+/* intro */
+.intro{
+    margin-left: 120px;
+}
+.myName{
+    color: aqua;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+}
+.intro h1{
+    color: white;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 0px;
+}
+.intro h2{
+    color: grey;
+    margin-top: 0px;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: grey;
+    
+}
+.introPara{
+    line-height: 30px;
+    width: 500px;
+}
+.touchButton{
+    padding: 20px 25px 20px 25px;
+    border: 2px solid aqua;
+    background-color: #2c3230;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    transition: 0.5s;
+}
+.touchButton:hover{
+    background-color: grey;
+    transform: translateX(5px);
+}
+/* main */
+main{
+    margin-left: 120px;
+}
+.mainOuter div{
+    display: fl
+}
+.identifiersNo{
+    color: aqua;
+    display: inline-block;
+}
+/* .verLin1{
+    background-color: aqua;
+    width: 200px;
+    height: 1px;
+    display: inline-block;
+} */
+.identifiersHeadings{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.identifiers{
+    color: aqua;
+    font-size: 20px;
+}
+.horLine{
+    display: inline-block;
+    margin-left: 200px;
+    width: 35%;
+    height: 1px;
+    background-color: steelblue;
+
+}
+
+.aboutPara{
+    color: grey;
+    line-height: 23px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.aboutParaContainer{
+    height: auto;
+    width: 475px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutPara a{
+    text-decoration: none;
+    color: aqua;
+}
+.aboutPara a:hover{
+    text-decoration: underline;
+}
+.profileContainer img{
+    width: 220px;
+    border: 1px solid aqua;
+    padding: 5px;
+}
+.profileContainer{
+    display: inline-block;
+    position: relative;
+    bottom: 630px;
+    margin-left: 35px;
+}
+.tech1{
+    display: inline-block;
+
+}
+.tech1 ol li{
+    list-style-type: none;
+    color: grey;
+    line-height: 25px;
+}
+.tech1 ol li::before{
+    content:"\21D2" ;
+    margin-right: 7px;
+    color: aqua;
+
+}
+/* work */
+#work{
+    margin-top: 50px;
+}
+#work .horLine{
+    margin-left: 70px;
+}
+#workLinks{
+    height: 60px;
+    width: 120px;
+    background-color:#2c3032;
+    overflow-y: auto;
+    direction: rtl;
+    position: relative;
+    bottom: 2400px;
+    /* display: flex;
+    flex-direction: column; */
+}
+#workLinks a{
+    color: steelblue;
+    text-decoration: none;
+}
+.work{
+    display: inline-block;
+}
+#SMIT{
+    display: inline-block;
+    margin-left: 30px;
+}
+#SMIT h3{
+    color: white;
+}
+#SMIT h3 a{
+    color: aqua;
+    text-decoration: none;
+}
+.joiningPara{
+    color: royalblue;
+}
+.work{
+    width: 600px;
+    height: auto;
+}
+.work li{
+    font-size: 20px;
+    list-style-type: none;
+    color: grey;
+    
+}
+.work li::before{
+    content: "\21D2";
+    margin-right: 5px;
+    color: aqua;
+}
+.horLine2{
+    background-color: steelblue;
+    height: 2px;
+    width: 80%;
+    margin-left: 60px;
+
+}
+#cources h4{
+    color: white;
+
+}
+#cources ol li{
+    line-height: 40px;
+}
+#cources ol li::before{
+    content: "\21D2";
+    margin-right: 5px;
+    color: aqua;
+
+}
+#cources ol li a{
+    text-decoration: none;
+    color: aqua;
+}
+#cources ol li a:hover{
+    text-decoration: underline;
+}
+#ZWTECH{
+    width: 600px;
+    height: auto;
+}
+#ZWTECH ol li{
+    font-size: 20px;
+    color: grey;
+    list-style-type: none;
+}
+#ZWTECH ol li::before{
+    content: "\21D2";
+    color: aqua;
+    margin-right: 5px;
+}
+#SEERAHT{
+    width: 600px;
+    height: auto;
+}
+#FreeLauncing{
+    width: 600px;
+    height: auto;
+}
+
+/* Built */
+
+.built .horLine{
+    margin-left: 20px;
+}
+.featurePara{
+    color: aqua;
+    margin-bottom: 0px;
+}
+.featureParaHeading{
+    color: white;
+    margin-top: 0px;
+}
+.builtCard{
+    width: 375px;
+    height: auto;
+    padding: 10px 1px 8px 5px;
+    background-color:#303030;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+.builtCard p{
+    color: steelblue;
+}
+#podCast img{
+    width: 400px;
+    transition: 0.5s;
+}
+.featureParaContainer{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.technologies{
+    width: 300px;
+    length:auto;
+    position: relative;
+    bottom: 90px;
+    color: royalblue;
+    left: 90px;
+    font-size: 15px;
+}
+
+/* DSA block */
+#DSA{
+    margin-top: 80px;
+}
+.featureParaContainer2{
+    position: relative;
+    left: 500px;
+    top: 20px;
+} 
+#DSA img{
+    width: 400px;
+    transition: 0.5s;
+}
+.dsaBox{
+    width: 375px;
+    height: auto;
+    padding: 20px 0px 20px 10px;
+    background-color: #303030;
+    color: steelblue;
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    display: inline-block;
+}
+#markdownPara{
+    color: royalblue;
+    font-size: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 80px;
+}
+#gitLogo{
+    position: relative;
+    left: 590px;
+    bottom: 80px;
+}
+#gitLogo img{
+    width: 40px;
+}
+
+/* Bankapp */
+#bank{
+    margin-top: 40px;
+}
+#bank img{
+    width: 400px;
+    transition: 0.5s;
+}
+#gitOpenIcon{
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+}
+#gitOpenIcon img{
+    width: 30px;
+}
+
+/* Bank app */
+#App img{
+    width: 400px;
+    transition: 0.5s;
+}
+#appTechnologies{
+    width: 300px;
+    height: auto;
+    color: royalblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 90px;
+    left: 420px;
+}
+/* CRUD MERN WEB APP */
+#curdApp img{
+    width: 400px; 
+    transition: 0.5s;
+}
+#gitLogo2 img{
+    width: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+}
+/* bootcamp */
+#bootCamp img{
+    width: 400px;
+    transition: 0.5s;
+}
+#mernPara{
+    position: relative;
+    bottom: 150px;
+}
+.markPara{
+    color: royalblue;
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+    font-size: 15px;
+}
+#gitLogo3{
+    position: relative;
+    left: 520px;
+    bottom: 180px;
+}
+#gitLogo3 img{
+    width: 30px;
+}
+
+/* other projects */
+
+
+/* show button */
+#showmoreButton button{
+    border: 1px solid aqua;
+    transition: 0.5s;
+    
+}
+#otherP{
+    color: white;
+    text-align: center;
+}
+/* cards */
+       
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 70px;
+  }
+  #cards div{
+    margin-left: 0px;
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    background-color: #393D40;
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 3px;
+    transition: 0.5s;
+  }
+  #cards div img{
+    width: 30px;
+    margin: 10px;
+  }
+  #cards div .gitCard{
+    position: relative;
+    left: 200px;
+    top: 2px;
+  }
+  #cards div h3{
+    margin-top: 0px;
+    color: white;
+  }
+  #cards div p{
+    color: royalblue;
+  }
+  #cards div footer{
+    font-size: 15px;
+    color: gray;
+  }
+#otherProject{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+/* cards hover efects */
+#cards div:hover{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 15px aqua;
+}
+/* showmoreButton */
+.showmoreButton{
+    text-align: center;
+}
+.showmoreButton button{
+    border: 1px solid aqua;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s;
+    color: aqua;
+}
+/*  */
+#whatsNew{
+    text-align: center;
+    margin-top: 80px;
+}
+#whatsNew h1{
+    color: white;
+}
+#whatsNew #whatsnext{
+    color: aqua;
+}
+#whatsNew p{
+    color: white;
+}
+.helloButton{
+    margin-top: 100px;
+    text-align: center;
+}
+.helloButton button{
+    border: 1px solid aqua;
+    color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    transform: translateX(5px);
+    background-color: grey;
+}
+#curdApp img:hover{
+    box-shadow: 2px 2px 15px aqua;
+
+}
+#bootCamp img:hover{
+    box-shadow: 2px 2px 15px aqua;
+
+}
+#App img:hover{
+    box-shadow: 2px 2px 15px aqua;
+    
+}
+#bank img:hover{
+    box-shadow: 2px 2px 15px aqua;
+
+}
+#DSA img:hover{
+    box-shadow: 2px 2px 15px aqua;
+}
+#podCast img:hover{
+    box-shadow: 2px 2px 15px aqua;
+
+}
+/* side fixed  */
+#sideLinks1 img{
+    width: 30px;
+    
+}
+#sideLinks1{
+    position: fixed;
+    top: 200px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+#mail{
+    position: fixed;
+    transform: rotate(90deg);
+    left: 950px;
+    top: 200px;
+}
+
+#mail p{
+    color: royalblue;
+    font-size: 15px;
+
+}
+#verline{
+    width: 2px;
+    background-color: royalblue;
+    height: 100px;
+    position: fixed;
+    bottom: 1px;
+    left: 40px;
+}
+
+#verlin2{
+    width: 2px;
+    background-color: royalblue;
+    height: 100px;
+    position: fixed;
+    bottom: 1px;
+    left: 1050px;
+
+}
