@@ -48,10 +48,8 @@ input{
 }
 .flatbox2-card .img-fluid {
     max-width:200px;
-    /* or adjust as per your requirement */
     max-height: 200px;
     
-    /* spacing between images */
 }
 .wrapper2{
     max-height: 500px;
@@ -96,7 +94,7 @@ input{
 /* Custom scrollbar styling for WebKit browsers */
 ::-webkit-scrollbar {
     height: 10px;
-    width: 20px; /* Set the width of the scrollbar */
+    width: 20px; 
 }
 
 ::-webkit-scrollbar-thumb {
