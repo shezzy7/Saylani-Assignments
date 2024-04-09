@@ -1,4 +1,4 @@
-//          MERN Assignment no 7
+//          JavaScript Assignment no 1
 //Q1
 //WAP to find greater between three numbers
 function compare2(){
